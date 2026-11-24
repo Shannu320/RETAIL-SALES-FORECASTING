@@ -1,0 +1,8 @@
+Calendar = ADDCOLUMNS(CALENDAR(MIN(FactSales[order_date]), MAX(FactSales[order_date])), "Year", YEAR([Date]), "Month", FORMAT([Date], "YYYY-MM"))
+Revenue = SUM(FactSales[sales])
+Profit = SUM(FactSales[profit])
+Profit Margin = DIVIDE([Profit], [Revenue])
+Orders = DISTINCTCOUNT(FactSales[order_id])
+Average Order Value = DIVIDE([Revenue], [Orders])
+Revenue LY = CALCULATE([Revenue], SAMEPERIODLASTYEAR('Calendar'[Date]))
+Revenue Growth % = DIVIDE([Revenue] - [Revenue LY], [Revenue LY])
