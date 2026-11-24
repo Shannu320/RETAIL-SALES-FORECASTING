@@ -98,7 +98,7 @@ Retail_Sales_Forecasting_Project/
 
 ### Installation
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Shannu320/RETAIL-SALES-FORECASTING.git
 cd Retail_Sales_Forecasting_Project
 pip install -r requirements.txt
 ```
@@ -205,16 +205,6 @@ pytest tests/ -v
 ## 📄 License
 
 MIT License — feel free to use for learning, portfolio, or commercial projects.
-
----
-
-## 🙋‍♂️ Author
-
-**Prem Kumar Reddy**  
-*Retail Sales Forecasting & Business Performance Analytics — Internship Project*
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [yourprofile](https://linkedin.com/in/yourprofile)
 
 ---
 
